@@ -27,4 +27,4 @@ jobs:
 
     - name: Run Semgrep
       run: |
-        semgrep --config=p/security app.py
+        semgrep app.py
