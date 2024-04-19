@@ -12,12 +12,6 @@ def evaluate_data():
     if data is None:
         return "Error: No data provided", 400
     
-    try:
-        result = eval(data)
-
-    except Exception as e:
-        return f"Error: {str(e)}", 400
-
     return "ok"
 
 if __name__ == '__main__':
